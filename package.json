@@ -1,0 +1,30 @@
+{
+  "name": "y-avatars-service",
+  "version": "1.0.0",
+  "description": "y-avatars service",
+  "main": "server.js",
+  "scripts": {
+    "start":"nodemon server.js",
+    "dev": "webpack -w & nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "y-avatars"
+  ],
+  "author": "uwenayoallain",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.2",
+    "babel-preset-react-app": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.9",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack": "^5.41.1",
+    "y-avatars": "^1.0.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.7.2"
+  }
+}
